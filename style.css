@@ -46,11 +46,17 @@ h2 {
   transform: translate(-50%);
 }
 
+.bandas {
+  margin-top: 19rem;
+  display: grid;
+  /* define the number of grid columns */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 .bandas .sabbath {
-  position: absolute;
   width: 10rem;
-  top: 19rem;
-  left: 3.5rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -60,10 +66,9 @@ h2 {
 }
 
 .bandas .nirvana {
-  position: absolute;
   width: 10rem;
-  top: 19.5rem;
-  left: 17rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -74,24 +79,24 @@ h2 {
 
 @media screen and (max-width: 400px) {
   .saudacao {
-    top: 6rem;
+    top: 7rem;
     left: 1.5rem;
   }
 
   h2 {
-    top: 8rem;
+    top: 10rem;
     font-weight: 500;
   }
 
+  .bandas {
+    margin-left: 4rem;
+  }
+
   .sabbath {
-    width: 9rem;
-    top: 12rem;
-    left: 2rem;
+    width: 7rem;
   }
 
   .nirvana {
-    width: 9rem;
-    top: 12.5rem;
-    left: 13rem;
+    width: 7rem;
   }
 }
