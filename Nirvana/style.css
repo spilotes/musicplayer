@@ -29,7 +29,7 @@ h1 {
 
 .unplugged {
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   top: 10rem;
   left: 50%;
   margin-right: -50%;
@@ -39,12 +39,12 @@ h1 {
 }
 
 .unplugged:hover {
-  width: 15.3rem;
+  width: 17.3rem;
 }
 
 .desc-unplugged {
   position: absolute;
-  top: 26rem;
+  top: 28rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
