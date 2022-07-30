@@ -9,7 +9,15 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(135deg, #030008, #00131a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#030008),
+    to(#00131a)
+  );
   overflow-x: hidden;
 }
 
@@ -50,8 +58,8 @@ h2 {
 
 .bandas .sabbath {
   width: 10rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -62,8 +70,8 @@ h2 {
 
 .bandas .nirvana {
   width: 10rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
