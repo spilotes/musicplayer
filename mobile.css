@@ -1,11 +1,7 @@
 @media screen and (max-width: 400px) {
   .saudacao {
     top: 6rem;
-    left: 2rem;
-  }
-
-  h1 {
-    font-size: 1.7rem;
+    left: 1.5rem;
   }
 
   h2 {
@@ -16,12 +12,12 @@
   .sabbath {
     width: 9rem;
     top: 12rem;
-    left: -6rem;
+    left: 2rem;
   }
 
   .nirvana {
     width: 9rem;
     top: 12.5rem;
-    left: 8.5rem;
+    left: 13rem;
   }
 }
