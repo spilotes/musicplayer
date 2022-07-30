@@ -72,7 +72,7 @@ h2 {
   transform: scale(1.03);
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 414px) {
   .saudacao {
     top: 7rem;
     left: 1.5rem;
