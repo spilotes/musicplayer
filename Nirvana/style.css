@@ -21,6 +21,7 @@ body {
 
 h1 {
   position: absolute;
+  font-size: 1.6rem;
   top: 3rem;
   left: 50%;
   margin-right: -50%;
