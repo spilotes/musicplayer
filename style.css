@@ -9,15 +9,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#030008),
-    to(#00131a)
-  );
+  background: linear-gradient(135deg, #030008, #00131a);
   overflow-x: hidden;
 }
 
@@ -28,20 +20,21 @@ h1 {
   color: #fff;
   margin-right: -50%;
   font-size: 1.7rem;
+  font-weight: 500;
   transform: translate(-50%);
 }
 
 .saudacao {
   position: absolute;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   top: 10rem;
   left: 3.5rem;
 }
 
 h2 {
   position: absolute;
-  font-weight: 100;
+  font-weight: 400;
   top: 14rem;
   left: 50%;
   margin-right: -50%;
@@ -91,7 +84,7 @@ h2 {
   }
 
   .bandas {
-    margin-left: 4rem;
+    margin-left: 2.5rem;
   }
 
   .sabbath {
