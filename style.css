@@ -82,24 +82,24 @@ h2 {
 
 @media (max-width: 414px) {
   .saudacao {
-    top: 7rem;
+    top: 8rem;
     left: 2rem;
   }
 
   h2 {
-    top: 12rem;
+    top: 13rem;
     font-weight: 500;
   }
 
   .bandas {
-    margin-left: 2.5rem;
+    margin-top: 20rem;
   }
 
   .sabbath {
-    width: 7rem;
+    width: 6.5rem;
   }
 
   .nirvana {
-    width: 7rem;
+    width: 6.5rem;
   }
 }
