@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <title>Nirvana | MTV Unplugged - 1994</title>
+  </head>
+  <body>
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+              alt="playlist-icon"
+            />
+          </button>
+
+          <button class="player__button player__button--absolute--center play">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/play.svg"
+              alt="play-icon"
+            />
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
+              alt="pause-icon"
+            />
+          </button>
+
+          <div class="slider__content">
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+              alt="back-icon"
+            />
+          </button>
+
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+
+          <button class="player__button next">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+              alt="next-icon"
+            />
+          </button>
+
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">01 - About a girl</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/01-About_a_Girl.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">02 - Come as you are</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/02-Come_As_You_Are.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name"
+              >03 - Jesus doesn't want me for a sunbeam</b
+            >
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/03-Jesus_Doesn't_Want_Me_for_a_Sunbeam.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">04 - The man who sold the world</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/04-The_Man_Who_Sold_the_World.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">05 - Pennyroyal tea</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/05-Pennyroyal_Tea.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">06 - Dumb</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/06-Dumb.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name"
+              >07 - Polly <span class="uppercase"></span
+            ></b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/07-Polly.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">08 - On a plain</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/08-On_a_Plain.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">09 - Something in the way</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/09-Something_In_the_Way.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">10 - Plateau</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/10-Plateau.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">11 - Oh me</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/11-Oh_Me.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">12 - Lake of fire</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/12-Lake_of_Fire.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">13 - All apologies</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/13-All_Apologies.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">14 - Where did you sleep last night</b>
+            <span class="flex">
+              <span class="player__title">Nirvana</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/14-Where_Did_You_Sleep_Last_Night.mp3"
+          ></audio>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <span class="hist"
+        ><b>MTV Unplugged in New York</b> é um álbum ao vivo da banda de rock
+        americana Nirvana, lançado em 1 de novembro de 1994, pela DGC Records.
+        Apresenta uma performance acústica gravada no Sony Music Studios em Nova
+        York em 18 de novembro de 1993, para a série de televisão MTV Unplugged.
+        O show foi dirigido por Beth McCarthy e exibido na rede de televisão a
+        cabo MTV em 16 de dezembro de 1993. Em uma ruptura com a tradição MTV
+        Unplugged, o Nirvana tocou principalmente material menos conhecido e
+        covers de músicas dos Vaselines, David Bowie, Lead Belly e Meat Puppets.
+        Ao contrário das performances anteriores do MTV Unplugged, que eram
+        inteiramente acústicas, o Nirvana usou amplificação elétrica e efeitos
+        de guitarra durante o set. Eles se juntaram ao guitarrista Pat Smear e
+        ao violoncelista Lori Goldston, além de membros do Meat Puppets para
+        algumas músicas. <b>MTV Unplugged</b> foi lançado depois que os planos
+        de lançar a performance como parte de uma compilação de álbum duplo ao
+        vivo intitulada Verse Chorus Verse, foram abandonados. Foi o primeiro
+        lançamento do Nirvana após a morte do cantor Kurt Cobain sete meses
+        antes. Ele estreou no número um na Billboard 200 dos EUA e foi
+        certificado oito vezes multiplatina pela RIAA em 2020. Ganhou o Melhor
+        Performance de Música Alternativa no Grammy Awards de 1996, a única
+        vitória do Nirvana no Grammy Award, e desde então foi classificado um
+        dos maiores álbuns ao vivo de todos os tempos. O desempenho foi lançado
+        como um DVD em 2007.</span
+      >
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
