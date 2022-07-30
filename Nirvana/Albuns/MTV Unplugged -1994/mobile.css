@@ -2,9 +2,4 @@
   .player__header.open-header {
     height: 54%;
   }
-
-  .hist {
-    left: -6rem;
-    right: 0;
-  }
 }
