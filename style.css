@@ -7,7 +7,15 @@
 }
 
 body {
-  background: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#030008),
+    to(#00131a)
+  );
   overflow-x: hidden;
 }
 
@@ -23,17 +31,23 @@ h1 {
   position: absolute;
   top: 3.3rem;
   left: 50%;
-  color: #000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
+  color: #fff;
   margin-right: -50%;
   transform: translate(-50%);
+}
+
+.saudacao {
+  position: absolute;
+  font-size: 1.6rem;
+  font-weight: 600;
+  top: 10rem;
+  left: 3.5rem;
 }
 
 h2 {
   position: absolute;
   font-weight: 100;
-  top: 12rem;
+  top: 14rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
@@ -42,8 +56,8 @@ h2 {
 .sabbath {
   position: absolute;
   width: 10rem;
-  top: 18rem;
-  left: 5rem;
+  top: 19rem;
+  left: 3.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -55,7 +69,7 @@ h2 {
 .nirvana {
   position: absolute;
   width: 10rem;
-  top: 18.5rem;
+  top: 19.5rem;
   left: 17rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;

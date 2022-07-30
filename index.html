@@ -11,15 +11,28 @@
   </head>
   <body>
     <div>
-      <figure><img class="header" src="./0imgs/header.png" alt="header"</figure>
       <h1>⚡Free Music Player🎧</h1>
+    </div>
+    <div class="saudacao">
+      <script language="JavaScript">
+        now = new Date();
+        if (now.getHours() >= 0 && now.getHours() < 5) {
+          document.write("Boa madrugada☄️");
+        } else if (now.getHours() >= 5 && now.getHours() < 12) {
+          document.write("Bom dia🌅");
+        } else if (now.getHours() >= 12 && now.getHours() < 18) {
+          document.write("Boa tarde🌇");
+        } else {
+          document.write("Boa noite🌌");
+        }
+      </script>
     </div>
     <div>
       <h2>Bandas</h2>
     </div>
     <figure>
       <a href="./Black Sabbath/index.html"
-        ><img class="sabbath" src="./0imgs/sabbath.jpg" alt="Black sabbath"
+        ><img class="sabbath" src="./0imgs/sabbath.png" alt="Black sabbath"
       /></a>
     </figure>
 
