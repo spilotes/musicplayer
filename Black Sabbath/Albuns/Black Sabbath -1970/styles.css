@@ -74,7 +74,6 @@ body {
   background-color: white;
   height: 95vh;
   filter: drop-shadow(0 0 0.5rem #ac3c0c);
-  visibility: hidden;
 }
 
 .player__header {
