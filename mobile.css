@@ -1,5 +1,18 @@
 @media screen and (max-width: 400px) {
   h2 {
-    font-weight: 300;
+    top: 9rem;
+    font-weight: 400;
+  }
+
+  .sabbath {
+    width: 9rem;
+    top: 13rem;
+    left: 2rem;
+  }
+
+  .nirvana {
+    width: 9rem;
+    top: 13.5rem;
+    left: 13.5rem;
   }
 }

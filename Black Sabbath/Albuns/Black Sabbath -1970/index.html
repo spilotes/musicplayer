@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <title>Black Sabbath | Black Sabbath - 1970</title>
+  </head>
+  <body>
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+              alt="playlist-icon"
+            />
+          </button>
+
+          <button class="player__button player__button--absolute--center play">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/play.svg"
+              alt="play-icon"
+            />
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
+              alt="pause-icon"
+            />
+          </button>
+
+          <div class="slider__content">
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+              alt="back-icon"
+            />
+          </button>
+
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+
+          <button class="player__button next">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+              alt="next-icon"
+            />
+          </button>
+
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">01 - Black Sabbath</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/01-Black_Sabbath.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">02 - The wizard</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/02-The_Wizard.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">03 - Behind the wall of sleep</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/03-Behind_The_Wall_Of_Sleep.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">04 - N.I.B.</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/04-N.I.B..mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">05 - Evil Woman</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/05-Evil_Woman.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">06 - Sleeping Village</b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/06-Sleeping_Village.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name"
+              >07 - Warning <span class="uppercase"></span
+            ></b>
+            <span class="flex">
+              <span class="player__title">Black Sabbath</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/07-Warning.mp3"></audio>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <a
+        href="https://pt.wikipedia.org/wiki/Black_Sabbath_(%C3%A1lbum)"
+        target="_blank"
+        ><span class="hist">Informações sobre o disco</span></a
+      >
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

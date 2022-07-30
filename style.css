@@ -39,11 +39,24 @@ h2 {
   transform: translate(-50%);
 }
 
-.nirvana {
+.sabbath {
   position: absolute;
   width: 10rem;
   top: 18rem;
   left: 5rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.sabbath:hover {
+  transform: scale(1.03);
+}
+
+.nirvana {
+  position: absolute;
+  width: 10rem;
+  top: 18.5rem;
+  left: 17rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
