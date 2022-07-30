@@ -21,13 +21,14 @@ body {
 
 h1 {
   position: absolute;
+  font-size: 1.6rem;
   top: 3rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
 }
 
-.unplugged {
+.sabbath {
   position: absolute;
   width: 17rem;
   top: 10rem;
@@ -38,7 +39,7 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-.unplugged:hover {
+.sabbath:hover {
   width: 17.3rem;
 }
 
