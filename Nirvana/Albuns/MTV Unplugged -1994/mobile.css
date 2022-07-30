@@ -1,4 +1,8 @@
 @media screen and (max-width: 400px) {
+  .player__header.open-header {
+    height: 54%;
+  }
+
   .hist {
     left: 1rem;
   }
