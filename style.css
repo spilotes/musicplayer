@@ -53,7 +53,7 @@ h2 {
   margin-top: 19rem;
   display: grid;
   /* define the number of grid columns */
-  grid-template-columns: repeat(auto-fit, minmax(414px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .bandas .sabbath {
