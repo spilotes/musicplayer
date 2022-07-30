@@ -20,7 +20,7 @@ html *::after {
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   user-select: none;
   align-items: center;
@@ -64,6 +64,7 @@ body {
 
 .player {
   position: absolute;
+  top: 1.3rem;
   width: 350px;
   display: flex;
   overflow: hidden;
@@ -331,15 +332,27 @@ img[alt="pause-icon"] {
 .hist {
   position: absolute;
   color: #fff;
-  top: 55rem;
-  left: 15rem;
-  right: 15rem;
-  font-weight: 50;
+  bottom: -2.3rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
   font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 400px) {
-  .player__header.open-header {
-    height: 54%;
-  }
+.hist:hover {
+  text-decoration: underline solid 1px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: purple;
 }
