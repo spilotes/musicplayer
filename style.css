@@ -23,13 +23,50 @@ body {
 
 h1 {
   position: absolute;
-  top: 3.3rem;
+  top: 2rem;
   left: 50%;
   color: #fff;
   margin-right: -50%;
   font-size: 1.7rem;
   font-weight: 500;
   transform: translate(-50%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h1 {
+  position: absolute;
+  top: 3.2rem;
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: rgba(225, 225, 225, 0.01);
+  background-image: url(https://us.123rf.com/450wm/dmitrydesigner/dmitrydesigner1508/dmitrydesigner150800039/44226275-seamless-background-consisting-of-the-symbols-of-musical-notes-in-vector-isolated-over-white.jpg?ver=6);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animate 50s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-position: left top;
+  }
+  25% {
+    background-position: right bottom;
+  }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }
 }
 
 .saudacao {
