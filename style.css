@@ -52,7 +52,7 @@ h2 {
 .sabbath {
   position: absolute;
   width: 10rem;
-  top: 18rem;
+  top: 20rem;
   left: 3.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -62,11 +62,24 @@ h2 {
   transform: scale(1.03);
 }
 
+.bowie {
+  position: absolute;
+  width: 10rem;
+  top: 20rem;
+  left: 16rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.bowie:hover {
+  transform: scale(1.03);
+}
+
 .nirvana {
   position: absolute;
   width: 10rem;
-  top: 18.5rem;
-  left: 16rem;
+  top: 20.5rem;
+  left: 28rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
