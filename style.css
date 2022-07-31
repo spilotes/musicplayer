@@ -74,27 +74,3 @@ h2 {
 .nirvana:hover {
   transform: scale(1.03);
 }
-
-@media (max-width: 414px) {
-  .saudacao {
-    top: 8rem;
-    left: 2rem;
-  }
-
-  h2 {
-    top: 13rem;
-    font-weight: 500;
-  }
-
-  .bandas {
-    margin-top: 20rem;
-  }
-
-  .sabbath {
-    width: 6rem;
-  }
-
-  .nirvana {
-    width: 6rem;
-  }
-}
