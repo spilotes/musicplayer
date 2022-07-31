@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <title>David Bowie | Scary Monsters - 1980</title>
+  </head>
+  <body>
+    <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+              alt="playlist-icon"
+            />
+          </button>
+
+          <button class="player__button player__button--absolute--center play">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/play.svg"
+              alt="play-icon"
+            />
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
+              alt="pause-icon"
+            />
+          </button>
+
+          <div class="slider__content">
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+            <img class="img slider__img" src="./img/capa.jpg" alt="cover" />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+              alt="back-icon"
+            />
+          </button>
+
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+
+          <button class="player__button next">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+              alt="next-icon"
+            />
+          </button>
+
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">01 - It's no game</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/01-It's_No_Game.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">02 - Up the hill backwards</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/02-Up_the_Hill_Backwards.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name"
+              >03 - Scary monsters(and super creeps)</b
+            >
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/03-Scary_Monsters_(And Super Creeps).mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">04 - Ashes to ashes</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/04-Ashes_to_Ashes.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">05 - Fashion</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/05-Fashion.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">06 - Teenage wildlife</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/06-Teenage_Wildlife.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name"
+              >07 - Scream like a baby <span class="uppercase"></span
+            ></b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/07-Scream_Like_a_Baby.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">08 - Kingdom come</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio class="audio" src="./midia/08-Kingdom_Come.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">09 - Because you're youg</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/09-Because_You're_Young.mp3"
+          ></audio>
+        </li>
+
+        <li class="player__song">
+          <img class="player__img img" src="./img/capa.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">10 - It's no game(part 2)</b>
+            <span class="flex">
+              <span class="player__title">David Bowie</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+
+          <audio
+            class="audio"
+            src="./midia/10-It's_No_Game_(Part 2).mp3"
+          ></audio>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <a
+        href="https://pt.wikipedia.org/wiki/Scary_Monsters_(and_Super_Creeps)"
+        target="_blank"
+        ><span class="hist">Informações sobre o disco</span></a
+      >
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
