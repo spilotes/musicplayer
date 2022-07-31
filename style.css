@@ -49,7 +49,7 @@ h2 {
   transform: translate(-50%);
 }
 
-.bandas .sabbath {
+.sabbath {
   position: absolute;
   width: 10rem;
   top: 18rem;
@@ -58,11 +58,11 @@ h2 {
   transition: all 0.5s ease-in-out;
 }
 
-.bandas .sabbath:hover {
+.sabbath:hover {
   transform: scale(1.03);
 }
 
-.bandas .nirvana {
+.nirvana {
   position: absolute;
   width: 10rem;
   top: 18.5rem;
@@ -71,7 +71,7 @@ h2 {
   transition: all 0.5s ease-in-out;
 }
 
-.bandas .nirvana:hover {
+.nirvana:hover {
   transform: scale(1.03);
 }
 

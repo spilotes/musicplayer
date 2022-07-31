@@ -9,13 +9,13 @@
     font-weight: 500;
   }
 
-  .bandas .sabbath {
+  .sabbath {
     width: 8.5rem;
     top: 12rem;
-    left: -4rem;
+    left: 1rem;
   }
 
-  .bandas .nirvana {
+  .nirvana {
     width: 8.5rem;
     top: 12.5rem;
     left: 11rem;
