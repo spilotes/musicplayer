@@ -1,23 +1,23 @@
 @media (max-width: 414px) {
   .saudacao {
-    top: 7rem;
+    top: 8rem;
     left: 1.5rem;
   }
 
   h2 {
-    top: 11rem;
+    top: 13rem;
     font-weight: 500;
   }
 
   .sabbath {
     width: 8.5rem;
-    top: 14rem;
-    left: 1rem;
+    top: 17rem;
+    left: 2rem;
   }
 
   .nirvana {
     width: 8.5rem;
-    top: 14.5rem;
-    left: 12rem;
+    top: 17.5rem;
+    left: 15rem;
   }
 }
